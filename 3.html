@@ -2,6 +2,15 @@
 <html>
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VN7WKZ1LMS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VN7WKZ1LMS');
+    </script>
     <title>WEB1 - Javascript</title>
     <meta charset="utf-8">
 </head>
@@ -27,7 +36,8 @@
 
     </p>
     <p>
-        자바스크립트란?
+        자바스크립트란?<br>
+
         HTML과 CSS는 정적인 언어입니다. 정적이라는 것은 이것들이 브라우저를 통해서 웹페이지를 화면에 그려주면 이 화면을 변경할 수 있는 방법이 없다는 의미입니다. (잘 이해가 안되죠? 걱정 마세요.
         수업 들으면 곧 알게 됩니다.)
 
@@ -70,6 +80,28 @@
         생활코딩은 앞으로 다양한 언어를 다룰 예정입니다. <br>
         과정마다 프로그래밍의 핵심적인 개념들을 반복하는 것이 아니라 이것들은 자바스크립트 수업으로 과감하게 위탁할 예정입니다.<br>
         대신에 그 언어와 기술에 집중할 수 있겠죠. 그러니 자바스크립트 열심히 공부하세요!
+    </p>
+    <p>
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function () { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://web1-wzdqs1raim.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
     </p>
 
 </body>
